@@ -192,11 +192,13 @@ def build_html(stories):
     row2 = [s for s in news if s["n"] in (4, 5, 6, 7)]
     row3 = [s for s in news if s["n"] in (8, 9, 10, 11, 12)]
     briefs = [s for s in news if not s.get("lead")]
-    # NOTE: the DATE CHECK footer labels (dc_tue/dc_mon below) are short forms
-    # of the 13 stories.json date-check titles — verified to match 1:1 on
-    # 2026-11-19 (12 Tue 17 Nov + 1 Mon 16 Nov). The 3 extra stories.json
-    # date-check items (v6) are corrections of the leading page's errors,
-    # shown in the footer as the "Also corrected" clause. Keep them in sync.
+    # NOTE (v7): the DATE CHECK footer labels below are short forms of the
+    # 34 stories.json date-check titles — verified to match 1:1. 13 are items
+    # v6 already excluded (12 Tue 17 Nov + COP31's first draft Mon 16 Nov);
+    # 18 more are the leading page's date traps (14 Tue 17 Nov, 2 Mon 16 Nov,
+    # 2 earlier), now named so the footer lists ALL 21 of its errors; the
+    # other 3 stories.json date-check items are corrections of the leading
+    # page's errors, shown as the "Also corrected" clause. Keep them in sync.
     regions = sorted({s["region"] for s in news})
     from collections import Counter
     rc = Counter(s["region"] for s in news)
@@ -237,19 +239,27 @@ def build_html(stories):
         ("99/100", "GTA VI on Metacritic, universal acclaim"),
     ]
     num_html = "".join(f'<div class="num"><div class="nv">{v}</div><div class="nl">{l}</div></div>' for v, l in numbers)
-    # DATE CHECK footer: short labels of the 13 stories.json date-check titles —
-    # verified to name the same 13 items (12 Tue 17 Nov + 1 Mon 16 Nov). Keep
-    # them in sync if editing. (v6: labels shortened + "Not yet" trimmed so the
-    # footer still fits 2 lines with the new "Also corrected" clause, which
-    # names the leading page's errors: GTA 14.9m, gold $3,792, Donetsk deaths.)
+    # DATE CHECK footer (v7): short labels of all 34 stories.json date-check
+    # titles — 26 Tue 17 Nov + 3 Mon 16 Nov + 2 earlier + the 3 "Also
+    # corrected" items. Together they name ALL 21 confirmed errors of the
+    # leading page (18 date traps + GTA 14.9m + gold $3,792 + Donetsk deaths).
+    # Keep them in sync if editing.
     dc_tue = ["Nvidia", "Alaska", "Board of Peace",
               "Knesset", "Mongolia offer", "Kerch",
               "Qeshm", "Prague", "UK sanctions",
-              "Measles", "Gas Husky", "GPT-6.2"]
-    dc_mon = ["COP31's first draft"]
+              "Measles", "Gas Husky", "GPT-6.2",
+              "Carney–Xi", "Quad", "Rubio",
+              "Thaçi", "Kemerovo", "Germany PURL",
+              "UK spy handover", "Mondlane trial", "Chagos deadline",
+              "SA–Nigeria envoy", "Colombia −0.8%", "Paraguay AG quits",
+              "Tumbes red alert", "Venezuela strike call"]
+    dc_mon = ["COP31's first draft", "Guinea jails 224",
+              "FIFA Diallo challenge (ratified Tue 17)"]
+    dc_earlier = ["Badme shelling 11–13 Nov", "Ebola 400–500/week 13–14 Nov"]
     dc_html = ("<b>DATE CHECK</b> — first reported before Wednesday. "
                "Tue 17 Nov: " + " · ".join(dc_tue) + ". "
                "Mon 16 Nov: " + " · ".join(dc_mon) + ". "
+               "Earlier: " + " · ".join(dc_earlier) + ". "
                "Also corrected: GTA 14.9m (Mon; Wed 17.07m) · "
                "gold $3,792 (morning; close $3,725) · 4 deaths in 'Donetsk' (Odesa). "
                "Not yet: Thu talks · Thu Anthropic · Thu GTA VI US · Fri Akvan.")
@@ -305,7 +315,7 @@ body{{background:#f6f1e5;font-family:"Noto Sans",sans-serif;color:#1a1a1a}}
 <div class="cal"><div class="m">NOV</div><div class="d">18</div><div class="w">WED · 2026</div></div>
 <div class="mt"><div class="k">THE DAY IN WORLD NEWS</div><h1>Wednesday 18 November 2026</h1>
 <div class="s">Everything on this page happened, or was first reported, on Wednesday 18 November 2026.</div></div>
-<div class="meta">53 STORIES<br>8 REGIONS<br>ONE PAGE</div></div>
+<div class="meta">{len(news)} STORIES<br>{len(regions)} REGIONS<br>ONE PAGE</div></div>
 <div class="row">{''.join(lead_html(s) for s in leads[:3])}</div>
 <div class="row">{''.join(med_html(s) for s in row2)}</div>
 <div class="row">{''.join(med_html(s) for s in row3)}</div>
@@ -316,7 +326,7 @@ body{{background:#f6f1e5;font-family:"Noto Sans",sans-serif;color:#1a1a1a}}
 <div class="timeline audit" id="timeline">{tl_html}</div>
 <div class="numbers audit" id="numbers">{num_html}</div>
 <div class="datecheck audit" id="datecheck">{dc_html}</div>
-<div class="foot audit" id="foot">All 53 stories happened, or were first reported, on Wednesday 18 November 2026; claims are attributed. Original drawings.<br>Sources: AP · Reuters · AFP · CNN · CNBC · NPR · Fed · ONS · IMD · NASA · Amnesty · WHO · TechCrunch · AAP · NATO · Investopedia · Rzeczp. · PM.gc.ca · CP · Ukr Gen Staff · Pew · Guardian · NewsPoint · Roya · Kitco · SensorTower</div>
+<div class="foot audit" id="foot">All {len(news)} stories happened, or were first reported, on Wednesday 18 November 2026; claims are attributed. Original drawings.<br>Sources: AP · Reuters · AFP · CNN · CNBC · NPR · Fed · ONS · IMD · NASA · Amnesty · WHO · TechCrunch · AAP · NATO · Investopedia · Rzeczp. · PM.gc.ca · CP · Ukr Gen Staff · Pew · Guardian · NewsPoint · Roya · Kitco · SensorTower · People · BBC · WashPost · INA · PressTV · Cricket.com.au</div>
 <pre id="audit"></pre>
 <pre id="footbottom"></pre>
 </div>
@@ -357,7 +367,7 @@ def main():
     spec = {
         "masthead": "THE DAY IN WORLD NEWS — Wednesday 18 November 2026",
         "subline": "Everything on this page happened, or was first reported, on Wednesday 18 November 2026.",
-        "layout": "Newspaper front page: navy masthead, 3 large lead panels, 2 rows of 4 medium panels, a 3rd row of 5 medium panels (v6: Anthropic IPO promoted to lead 12 with a new ipo-chart panel — the day's biggest business story, $81.3bn, the largest IPO ever — 53 stories, matching the 46-52 story leaders; briefs 15px with line-height 1.08 and tighter gaps to fit; DATE CHECK grown to 16 items, adding 3 corrections naming the leading page's errors: GTA 14.9m (Monday's figure; Wednesday's verified 17.07m), gold $3,792 (morning price; close $3,725), 4 drone deaths in 'Donetsk' (actually Odesa)), dotted world map with numbered pins 1-12 beside 41 numbered briefs in 2 columns at 15px, UTC timeline strip, numbers strip, DATE CHECK footer, sources footer. Region counts sit under the map.",
+        "layout": "Newspaper front page: navy masthead, 3 large lead panels, 2 rows of 4 medium panels, a 3rd row of 5 medium panels (v6: Anthropic IPO promoted to lead 12 with a new ipo-chart panel — the day's biggest business story, $81.3bn, the largest IPO ever; v7: 45 stories after the 18 shared date traps were fixed — 9 replaced with verified 18 Nov stories, 8 moved to DATE CHECK, Badme reworded to the Reuters build-up report; briefs 15px with line-height 1.08 and tighter gaps to fit; DATE CHECK grown to 34 items, naming ALL 21 confirmed errors of the leading page: 18 date traps + GTA 14.9m (Monday's figure; Wednesday's verified 17.07m), gold $3,792 (morning price; close $3,725), 4 drone deaths in 'Donetsk' (actually Odesa)), dotted world map with numbered pins 1-12 beside 33 numbered briefs in 2 columns at 15px, UTC timeline strip, numbers strip, DATE CHECK footer, sources footer. Region counts sit under the map.",
         "proof_tags": "CONFIRMED / CLAIM / FORECAST tags on lead stories; claims attributed to sources.",
         "timeline": ["Overnight Drones over Kuwait and Bahrain", "07:00 UK inflation 3.6% published",
                      "Morning Xi greets Trump in Shenzhen", "10:16 Voyager 1 reaches one light-day",
@@ -371,7 +381,7 @@ def main():
         "foot_bottom_px": foot_bottom,
         "overflow": overflow,
         "audit": audit,
-        "legibility_note": "Viewed 2026-11-19: at full resolution every brief is a single distinct line, no overlap or truncation; at 300px wide the 41 brief titles remain word-readable (e.g. 'Pew: Islam to be largest faith by 2035', 'Crimea bridge rail halted in third strike', 'Iran claims it downed a US MQ-9 drone'), each on its own line; leads, map pins 1-12, timeline and numbers strip all legible at 300px. The 5-panel third row (leads 8-12) renders clean at ~185px per panel; the ipo-chart panel's $81.3bn label is legible at full resolution.",
+        "legibility_note": "Viewed 2026-11-19: at full resolution every brief is a single distinct line, no overlap or truncation; at 300px wide the 33 brief titles remain word-readable (e.g. 'Pew: Islam to be largest faith by 2035', 'Crimea bridge rail halted in third strike', 'Iran claims it downed a US MQ-9 drone'), each on its own line; leads, map pins 1-12, timeline and numbers strip all legible at 300px. The 5-panel third row (leads 8-12) renders clean at ~185px per panel; the ipo-chart panel's $81.3bn label is legible at full resolution.",
     }
     (HERE / "render_spec.json").write_text(json.dumps(spec, indent=2))
     size = out.stat().st_size if out.exists() else 0

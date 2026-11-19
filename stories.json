@@ -70,7 +70,7 @@
     "topic": "MARKETS"
   },
   {
-    "deck": "Landfall due Puri–Narsapur on Friday; 47,000 evacuated.",
+    "deck": "Landfall due Puri–Narsapur on Friday; 80,000+ evacuated.",
     "lat": 20.3,
     "lead": true,
     "lon": 85.8,
@@ -154,6 +154,20 @@
     "topic": "POLITICS"
   },
   {
+    "deck": "$81.3bn raised — the largest IPO ever. Trades Thursday.",
+    "lat": 37.8,
+    "lead": true,
+    "lon": -122.4,
+    "n": 12,
+    "panel": "ipo-chart",
+    "proof": "CONFIRMED",
+    "region": "AMERICAS",
+    "section": "news",
+    "source": "TECHCRUNCH",
+    "title": "Anthropic prices the biggest IPO ever",
+    "topic": "IPO"
+  },
+  {
     "deck": "The US president closes his Manila stop with a trade deal he calls the biggest yet.",
     "n": 13,
     "proof": "CONFIRMED",
@@ -163,13 +177,13 @@
     "title": "Manila: Trump hails 'biggest' PH deal"
   },
   {
-    "deck": "The US, India, Japan and Australia hold their first leaders' summit since September 2024.",
+    "deck": "The Waleses end their India tour at Modi's Delhi home; Earthshot praised.",
     "n": 14,
     "proof": "CONFIRMED",
     "region": "ASIA-PACIFIC",
     "section": "news",
-    "source": "Wire reports",
-    "title": "Quad summit in Manila, first in 2 years"
+    "source": "PEOPLE · BBC",
+    "title": "Modi meets Prince and Princess of Wales"
   },
   {
     "deck": "Japan's prime minister travels to Beijing for the first time since taking office.",
@@ -181,13 +195,13 @@
     "title": "Japan: Takaichi's first China trip as PM"
   },
   {
-    "deck": "Ottawa and Beijing agree steps to ease tariffs after months of trade friction.",
+    "deck": "First Asian American to chair a party caucus; Jeffries' team takes shape.",
     "n": 16,
     "proof": "CONFIRMED",
-    "region": "ASIA-PACIFIC",
+    "region": "AMERICAS",
     "section": "news",
-    "source": "Wire reports",
-    "title": "Carney and Xi agree tariff relief"
+    "source": "WASHINGTON POST",
+    "title": "Lieu first Asian American caucus chair"
   },
   {
     "deck": "Seoul asks Beijing to use its leverage over Pyongyang as tensions persist.",
@@ -244,13 +258,13 @@
     "title": "Australia sanctions settler leader"
   },
   {
-    "deck": "Berlin promises more air defences and F-16 armaments for Ukraine.",
+    "deck": "'Chataigniers en fleurs' tops Sotheby's New York sale; hammer $165m.",
     "n": 23,
     "proof": "CONFIRMED",
-    "region": "EUROPE",
+    "region": "GLOBAL",
     "section": "news",
-    "source": "Wire reports",
-    "title": "Germany pledges air defences to Kyiv"
+    "source": "REUTERS · AFP",
+    "title": "Van Gogh sells for record $190.4m"
   },
   {
     "deck": "Defence minister confirms services stopped a mass-casualty sabotage plan near Kaliningrad meant to be blamed on Kyiv.",
@@ -271,112 +285,53 @@
     "title": "Ukraine hits two Russian refineries"
   },
   {
-    "deck": "Former president Hashim Thaçi is sentenced to 17 months by the Kosovo war-crimes court.",
+    "deck": "Cantwell and Rounds tell the White House defences lag AI-enabled attacks.",
     "n": 26,
     "proof": "CONFIRMED",
-    "region": "EUROPE",
+    "region": "AMERICAS",
     "section": "news",
-    "source": "Wire reports",
-    "title": "Kosovo: ex-president gets 17 months"
+    "source": "REUTERS",
+    "title": "Senators warn on AI cyber threats"
   },
   {
-    "deck": "Nineteen people are reported killed in a plane crash in Kemerovo, Russian media say.",
+    "deck": "Eastern Libya seizes 4m+ pills and 29kg of cocaine and hashish; gang held.",
     "n": 27,
-    "proof": "CLAIM",
-    "region": "EUROPE",
+    "proof": "CONFIRMED",
+    "region": "AFRICA",
     "section": "news",
-    "source": "Wire reports",
-    "title": "Russia: 19 die in Kemerovo plane crash"
+    "source": "REUTERS",
+    "title": "Derna drug seizure: 4m pills"
   },
   {
-    "deck": "Britain extradites a US Army soldier suspected of spying to American custody.",
+    "deck": "Karkh court sentences six French nationals; 16 convicted in the case.",
     "n": 28,
     "proof": "CONFIRMED",
-    "region": "EUROPE",
+    "region": "MIDDLE EAST",
     "section": "news",
-    "source": "Wire reports",
-    "title": "UK hands US spy suspect to US custody"
+    "source": "INA · PRESS TV",
+    "title": "Iraq jails six French ISIL men for life"
   },
   {
-    "deck": "Opposition leader Venâncio Mondlane goes on trial in Maputo.",
+    "deck": "Monitors say both armies are within striking distance; Eritrea denies a build-up.",
     "n": 29,
-    "proof": "CONFIRMED",
-    "region": "AFRICA",
-    "section": "news",
-    "source": "Wire reports",
-    "title": "Mozambique: Mondlane goes on trial"
-  },
-  {
-    "deck": "A Guinean court jails 224 people in a crackdown on illegal gold mining.",
-    "n": 30,
-    "proof": "CONFIRMED",
-    "region": "AFRICA",
-    "section": "news",
-    "source": "Wire reports",
-    "title": "Guinea jails 224 over illegal mining"
-  },
-  {
-    "deck": "Port Louis gives London until December over the Chagos Islands handover.",
-    "n": 31,
-    "proof": "CONFIRMED",
-    "region": "AFRICA",
-    "section": "news",
-    "source": "Wire reports",
-    "title": "Mauritius sets UK a Chagos deadline"
-  },
-  {
-    "deck": "Pretoria formally reprimands Abuja's new envoy in a diplomatic row.",
-    "n": 32,
-    "proof": "CONFIRMED",
-    "region": "AFRICA",
-    "section": "news",
-    "source": "Wire reports",
-    "title": "South Africa rebukes Nigeria's envoy"
-  },
-  {
-    "deck": "Monitors report shelling near Badme as both armies mass troops on the border; Eritrea denies a build-up.",
-    "n": 33,
     "proof": "CLAIM",
     "region": "AFRICA",
     "section": "news",
     "source": "REUTERS · ACLED",
-    "title": "Ethiopia-Eritrea shelling near Badme"
+    "title": "Ethiopia–Eritrea mass troops at border"
   },
   {
-    "deck": "The Bundibugyo Ebola outbreak passes 11,000 cases and 5,400 deaths, the WHO says.",
-    "n": 34,
+    "deck": "CEO says full capacity by year-end after six wartime strikes.",
+    "n": 30,
     "proof": "CONFIRMED",
-    "region": "AFRICA",
+    "region": "MIDDLE EAST",
     "section": "news",
-    "source": "WHO",
-    "title": "DR Congo Ebola: 400–500 cases a week"
-  },
-  {
-    "deck": "$81.3bn raised — the largest IPO ever. Trades Thursday.",
-    "lat": 37.8,
-    "lead": true,
-    "lon": -122.4,
-    "n": 12,
-    "panel": "ipo-chart",
-    "proof": "CONFIRMED",
-    "region": "AMERICAS",
-    "section": "news",
-    "source": "TECHCRUNCH",
-    "title": "Anthropic prices the biggest IPO ever",
-    "topic": "IPO"
-  },
-  {
-    "deck": "The Secretary of State says there is no sign a cyberattack caused recent outages.",
-    "n": 35,
-    "proof": "CONFIRMED",
-    "region": "AMERICAS",
-    "section": "news",
-    "source": "Wire reports",
-    "title": "Rubio: no cyberattack behind outages"
+    "source": "REUTERS",
+    "title": "Bapco refinery back above 80%"
   },
   {
     "deck": "An unscheduled 20-minute sit-down ends with a pledge to keep talking; US tariffs stay.",
-    "n": 36,
+    "n": 31,
     "proof": "CONFIRMED",
     "region": "AMERICAS",
     "section": "news",
@@ -384,44 +339,26 @@
     "title": "Carney meets Trump in Shenzhen, no deal"
   },
   {
-    "deck": "Colombia's economy contracts 0.8% in the third quarter.",
-    "n": 37,
+    "deck": "England win by 97 runs in Hobart to take the series 2–1.",
+    "n": 32,
     "proof": "CONFIRMED",
-    "region": "AMERICAS",
+    "region": "OCEANIA",
     "section": "news",
-    "source": "Wire reports",
-    "title": "Colombia: economy shrinks 0.8% in Q3"
+    "source": "CRICKET.COM.AU · AFP",
+    "title": "Duckett's 133 seals England ODI series"
   },
   {
-    "deck": "Paraguay's attorney general resigns ahead of an impeachment vote.",
-    "n": 38,
+    "deck": "Civil Defence lifts alerts in Jazan, Najran and Khamis Mushait.",
+    "n": 33,
     "proof": "CONFIRMED",
-    "region": "AMERICAS",
+    "region": "MIDDLE EAST",
     "section": "news",
-    "source": "Wire reports",
-    "title": "Paraguay: attorney general quits"
-  },
-  {
-    "deck": "The Tumbes River passes its red alert level after heavy rain in northern Peru.",
-    "n": 39,
-    "proof": "CONFIRMED",
-    "region": "AMERICAS",
-    "section": "news",
-    "source": "Wire reports",
-    "title": "Peru: Tumbes River passes red alert"
-  },
-  {
-    "deck": "Venezuelan unions call a 24-hour general strike over pay.",
-    "n": 40,
-    "proof": "CONFIRMED",
-    "region": "AMERICAS",
-    "section": "news",
-    "source": "Wire reports",
-    "title": "Venezuela unions call 24-hour strike"
+    "source": "REUTERS",
+    "title": "Saudi: danger passed in three cities"
   },
   {
     "deck": "Rockstar's game unlocks at midnight in New Zealand; 2.5m watch on Twitch in 30 minutes, a record.",
-    "n": 41,
+    "n": 34,
     "proof": "CONFIRMED",
     "region": "GLOBAL",
     "section": "news",
@@ -430,7 +367,7 @@
   },
   {
     "deck": "Ministers take over as the 144-paragraph first draft splits over a fossil-fuel phase-out.",
-    "n": 42,
+    "n": 35,
     "proof": "CONFIRMED",
     "region": "EUROPE",
     "section": "news",
@@ -438,17 +375,8 @@
     "title": "COP31: ministers weigh divided draft"
   },
   {
-    "deck": "France's Diallo announces a challenge to Gianni Infantino for the FIFA presidency.",
-    "n": 43,
-    "proof": "CONFIRMED",
-    "region": "GLOBAL",
-    "section": "news",
-    "source": "Wire reports",
-    "title": "FIFA: Diallo to challenge Infantino"
-  },
-  {
     "deck": "NATO releases a public summary of its first strategy for 5G, 6G and satellite links.",
-    "n": 44,
+    "n": 36,
     "proof": "CONFIRMED",
     "region": "EUROPE",
     "section": "news",
@@ -457,7 +385,7 @@
   },
   {
     "deck": "Hegseth, on a surprise trip to Caracas, signs a deal on joint training and intelligence sharing.",
-    "n": 45,
+    "n": 37,
     "proof": "CONFIRMED",
     "region": "AMERICAS",
     "section": "news",
@@ -466,7 +394,7 @@
   },
   {
     "deck": "Seven wins in Sydney, including Album of the Year for Deadbeat — a record 22 career ARIAs.",
-    "n": 46,
+    "n": 38,
     "proof": "CONFIRMED",
     "region": "OCEANIA",
     "section": "news",
@@ -475,7 +403,7 @@
   },
   {
     "deck": "A 6–2, 6–4 win in Turin, his 11th in a row, tops the group and sends him to the semis.",
-    "n": 47,
+    "n": 39,
     "proof": "CONFIRMED",
     "region": "EUROPE",
     "section": "news",
@@ -484,7 +412,7 @@
   },
   {
     "deck": "Japan's PM meets Putin for 30 minutes in Shenzhen, their leaders' first talks in seven years.",
-    "n": 48,
+    "n": 40,
     "proof": "CONFIRMED",
     "region": "ASIA-PACIFIC",
     "section": "news",
@@ -493,12 +421,48 @@
   },
   {
     "deck": "Nvidia gives back its post-earnings gain to close down 2.9%; AMD jumps 5.3%.",
-    "n": 49,
+    "n": 41,
     "proof": "CONFIRMED",
     "region": "AMERICAS",
     "section": "news",
     "source": "INVESTOPEDIA · TRADINGKEY",
     "title": "Wall St: Nvidia down 2.9%; AMD up 5.3%"
+  },
+  {
+    "deck": "Pew projects Muslims at 2.57bn vs Christians 2.52bn by 2035.",
+    "n": 42,
+    "proof": "CONFIRMED",
+    "region": "GLOBAL",
+    "section": "news",
+    "source": "PEW · AP",
+    "title": "Pew: Islam to be largest faith by 2035"
+  },
+  {
+    "deck": "Third attack in three days, the governor says; traffic halted again.",
+    "n": 43,
+    "proof": "CONFIRMED",
+    "region": "EUROPE",
+    "section": "news",
+    "source": "THE GUARDIAN",
+    "title": "Crimea bridge rail halted in third strike"
+  },
+  {
+    "deck": "Category 5 storm bears down on the Cook Islands.",
+    "n": 44,
+    "proof": "CONFIRMED",
+    "region": "OCEANIA",
+    "section": "news",
+    "source": "NEWSPOINT USA",
+    "title": "Cyclone Xavier holds Category 5"
+  },
+  {
+    "deck": "Iran's army claims the kill; US Central Command has not confirmed.",
+    "n": 45,
+    "proof": "CLAIM",
+    "region": "MIDDLE EAST",
+    "section": "news",
+    "source": "ROYA NEWS",
+    "title": "Iran claims it downed a US MQ-9 drone"
   },
   {
     "deck": "First reported Tuesday 17 November — left out.",
@@ -605,42 +569,6 @@
     "title": "OpenAI launches GPT-6.2 Astra and Sol"
   },
   {
-    "deck": "Pew projects Muslims at 2.57bn vs Christians 2.52bn by 2035.",
-    "n": 50,
-    "proof": "CONFIRMED",
-    "region": "GLOBAL",
-    "section": "news",
-    "source": "PEW · AP",
-    "title": "Pew: Islam to be largest faith by 2035"
-  },
-  {
-    "deck": "Third strike in four days halts rail traffic over the bridge.",
-    "n": 51,
-    "proof": "CONFIRMED",
-    "region": "EUROPE",
-    "section": "news",
-    "source": "THE GUARDIAN",
-    "title": "Crimea bridge rail halted in third strike"
-  },
-  {
-    "deck": "Category 5 storm bears down on the Cook Islands.",
-    "n": 52,
-    "proof": "CONFIRMED",
-    "region": "OCEANIA",
-    "section": "news",
-    "source": "NEWSPOINT USA",
-    "title": "Cyclone Xavier reaches Category 5"
-  },
-  {
-    "deck": "Iran's army claims the kill; US Central Command has not confirmed.",
-    "n": 53,
-    "proof": "CLAIM",
-    "region": "MIDDLE EAST",
-    "section": "news",
-    "source": "ROYA NEWS",
-    "title": "Iran claims it downed a US MQ-9 drone"
-  },
-  {
     "deck": "Sensor Tower's verified Wednesday figure is 17.07m; 14.9m was Monday 16 Nov.",
     "proof": "CONFIRMED",
     "region": "DATE CHECK",
@@ -663,5 +591,149 @@
     "section": "date-check",
     "source": "REUTERS · AL JAZEERA",
     "title": "Four drone deaths in 'Donetsk region'"
+  },
+  {
+    "deck": "Agreed Tuesday 17 November in Shenzhen — left out.",
+    "proof": "CONFIRMED",
+    "region": "DATE CHECK",
+    "section": "date-check",
+    "source": "PMO · REUTERS",
+    "title": "Carney–Xi tariff relief"
+  },
+  {
+    "deck": "Leaders met Tuesday 17 November — left out.",
+    "proof": "CONFIRMED",
+    "region": "DATE CHECK",
+    "section": "date-check",
+    "source": "WIRE REPORTS",
+    "title": "Quad summit in Manila"
+  },
+  {
+    "deck": "Spoke Tuesday 17 November in Manila — left out.",
+    "proof": "CONFIRMED",
+    "region": "DATE CHECK",
+    "section": "date-check",
+    "source": "AP",
+    "title": "Rubio: no cyberattack behind outages"
+  },
+  {
+    "deck": "Verdict Tuesday 17 November — left out.",
+    "proof": "CONFIRMED",
+    "region": "DATE CHECK",
+    "section": "date-check",
+    "source": "AP",
+    "title": "Kosovo: ex-president gets 17 months"
+  },
+  {
+    "deck": "Crashed Tuesday 17 November evening — left out.",
+    "proof": "CONFIRMED",
+    "region": "DATE CHECK",
+    "section": "date-check",
+    "source": "REUTERS",
+    "title": "Russia: 19 die in Kemerovo plane crash"
+  },
+  {
+    "deck": "PURL package announced Tuesday 17 November — left out.",
+    "proof": "CONFIRMED",
+    "region": "DATE CHECK",
+    "section": "date-check",
+    "source": "WIRE REPORTS",
+    "title": "Germany pledges air defences to Kyiv"
+  },
+  {
+    "deck": "Transferred Tuesday 17 November — left out.",
+    "proof": "CONFIRMED",
+    "region": "DATE CHECK",
+    "section": "date-check",
+    "source": "REUTERS",
+    "title": "UK hands US spy suspect to US custody"
+  },
+  {
+    "deck": "Trial opened Tuesday 17 November — left out.",
+    "proof": "CONFIRMED",
+    "region": "DATE CHECK",
+    "section": "date-check",
+    "source": "AP",
+    "title": "Mozambique: Mondlane goes on trial"
+  },
+  {
+    "deck": "Warning given Tuesday 17 November — left out.",
+    "proof": "CONFIRMED",
+    "region": "DATE CHECK",
+    "section": "date-check",
+    "source": "WIRE REPORTS",
+    "title": "Mauritius sets UK a Chagos deadline"
+  },
+  {
+    "deck": "Démarche meeting Tuesday 17 November — left out.",
+    "proof": "CONFIRMED",
+    "region": "DATE CHECK",
+    "section": "date-check",
+    "source": "WIRE REPORTS",
+    "title": "South Africa rebukes Nigeria's envoy"
+  },
+  {
+    "deck": "DANE released Tuesday 17 November — left out.",
+    "proof": "CONFIRMED",
+    "region": "DATE CHECK",
+    "section": "date-check",
+    "source": "REUTERS",
+    "title": "Colombia: economy shrinks 0.8% in Q3"
+  },
+  {
+    "deck": "Resigned Tuesday 17 November — left out.",
+    "proof": "CONFIRMED",
+    "region": "DATE CHECK",
+    "section": "date-check",
+    "source": "AFP",
+    "title": "Paraguay: attorney general quits"
+  },
+  {
+    "deck": "Passed the red threshold Tuesday 17 November — left out.",
+    "proof": "CONFIRMED",
+    "region": "DATE CHECK",
+    "section": "date-check",
+    "source": "SENAMHI",
+    "title": "Peru: Tumbes River passes red alert"
+  },
+  {
+    "deck": "Call announced Tuesday 17 November; strike Monday 16 — left out.",
+    "proof": "CONFIRMED",
+    "region": "DATE CHECK",
+    "section": "date-check",
+    "source": "WIRE REPORTS",
+    "title": "Venezuela unions call 24-hour strike"
+  },
+  {
+    "deck": "Announced Monday 16, ratified Tuesday 17 November — left out.",
+    "proof": "CONFIRMED",
+    "region": "DATE CHECK",
+    "section": "date-check",
+    "source": "REUTERS · AP",
+    "title": "FIFA: Diallo to challenge Infantino"
+  },
+  {
+    "deck": "Sentences handed down Monday 16 November — left out.",
+    "proof": "CONFIRMED",
+    "region": "DATE CHECK",
+    "section": "date-check",
+    "source": "AP",
+    "title": "Guinea jails 224 over illegal mining"
+  },
+  {
+    "deck": "Shelling 11–13 November; the build-up report is Wednesday's news — left out.",
+    "proof": "CONFIRMED",
+    "region": "DATE CHECK",
+    "section": "date-check",
+    "source": "ACLED · REUTERS",
+    "title": "Ethiopia-Eritrea shelling near Badme"
+  },
+  {
+    "deck": "Figure first reported 13–14 November — left out.",
+    "proof": "CONFIRMED",
+    "region": "DATE CHECK",
+    "section": "date-check",
+    "source": "WHO",
+    "title": "DR Congo Ebola: 400–500 cases a week"
   }
 ]

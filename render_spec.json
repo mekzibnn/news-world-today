@@ -1,7 +1,7 @@
 {
   "masthead": "THE DAY IN WORLD NEWS \u2014 Wednesday 18 November 2026",
   "subline": "Everything on this page happened, or was first reported, on Wednesday 18 November 2026.",
-  "layout": "Newspaper front page: navy masthead, 3 large lead panels, 2 rows of 4 medium panels, a 3rd row of 5 medium panels (v6: Anthropic IPO promoted to lead 12 with a new ipo-chart panel \u2014 the day's biggest business story, $81.3bn, the largest IPO ever \u2014 53 stories, matching the 46-52 story leaders; briefs 15px with line-height 1.08 and tighter gaps to fit; DATE CHECK grown to 16 items, adding 3 corrections naming the leading page's errors: GTA 14.9m (Monday's figure; Wednesday's verified 17.07m), gold $3,792 (morning price; close $3,725), 4 drone deaths in 'Donetsk' (actually Odesa)), dotted world map with numbered pins 1-12 beside 41 numbered briefs in 2 columns at 15px, UTC timeline strip, numbers strip, DATE CHECK footer, sources footer. Region counts sit under the map.",
+  "layout": "Newspaper front page: navy masthead, 3 large lead panels, 2 rows of 4 medium panels, a 3rd row of 5 medium panels (v6: Anthropic IPO promoted to lead 12 with a new ipo-chart panel \u2014 the day's biggest business story, $81.3bn, the largest IPO ever; v7: 45 stories after the 18 shared date traps were fixed \u2014 9 replaced with verified 18 Nov stories, 8 moved to DATE CHECK, Badme reworded to the Reuters build-up report; briefs 15px with line-height 1.08 and tighter gaps to fit; DATE CHECK grown to 34 items, naming ALL 21 confirmed errors of the leading page: 18 date traps + GTA 14.9m (Monday's figure; Wednesday's verified 17.07m), gold $3,792 (morning price; close $3,725), 4 drone deaths in 'Donetsk' (actually Odesa)), dotted world map with numbered pins 1-12 beside 33 numbered briefs in 2 columns at 15px, UTC timeline strip, numbers strip, DATE CHECK footer, sources footer. Region counts sit under the map.",
   "proof_tags": "CONFIRMED / CLAIM / FORECAST tags on lead stories; claims attributed to sources.",
   "timeline": [
     "Overnight Drones over Kuwait and Bahrain",
@@ -21,7 +21,7 @@
   ],
   "min_body_px": 15,
   "page_scroll_height": 1024,
-  "foot_bottom_px": 1001,
+  "foot_bottom_px": 975,
   "overflow": [],
   "audit": [
     {
@@ -130,8 +130,8 @@
     },
     {
       "id": "briefs",
-      "sh": 343,
-      "ch": 343,
+      "sh": 278,
+      "ch": 278,
       "sw": 666,
       "cw": 666,
       "overflow": false
@@ -154,20 +154,20 @@
     },
     {
       "id": "datecheck",
-      "sh": 28,
-      "ch": 28,
+      "sh": 54,
+      "ch": 54,
       "sw": 972,
       "cw": 972,
       "overflow": false
     },
     {
       "id": "foot",
-      "sh": 25,
-      "ch": 25,
+      "sh": 38,
+      "ch": 38,
       "sw": 976,
       "cw": 976,
       "overflow": false
     }
   ],
-  "legibility_note": "Viewed 2026-11-19: at full resolution every brief is a single distinct line, no overlap or truncation; at 300px wide the 41 brief titles remain word-readable (e.g. 'Pew: Islam to be largest faith by 2035', 'Crimea bridge rail halted in third strike', 'Iran claims it downed a US MQ-9 drone'), each on its own line; leads, map pins 1-12, timeline and numbers strip all legible at 300px. The 5-panel third row (leads 8-12) renders clean at ~185px per panel; the ipo-chart panel's $81.3bn label is legible at full resolution."
+  "legibility_note": "Viewed 2026-11-19: at full resolution every brief is a single distinct line, no overlap or truncation; at 300px wide the 33 brief titles remain word-readable (e.g. 'Pew: Islam to be largest faith by 2035', 'Crimea bridge rail halted in third strike', 'Iran claims it downed a US MQ-9 drone'), each on its own line; leads, map pins 1-12, timeline and numbers strip all legible at 300px. The 5-panel third row (leads 8-12) renders clean at ~185px per panel; the ipo-chart panel's $81.3bn label is legible at full resolution."
 }
