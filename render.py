@@ -213,7 +213,7 @@ def build_html(stories):
         ("$3,792", "Gold an ounce, its lowest in more than a year"),
         ("2,230", "Sudan civilians killed in 2026, by the UN's count"),
         ("25.9bn km", "Voyager 1 from Earth: one light-day"),
-        ("14.9m", "GTA VI digital pre-orders, Sensor Tower estimate"),
+        ("99/100", "GTA VI on Metacritic, universal acclaim"),
     ]
     num_html = "".join(f'<div class="num"><div class="nv">{v}</div><div class="nl">{l}</div></div>' for v, l in numbers)
 
@@ -321,7 +321,7 @@ def main():
                      "19:00 Fed minutes released", "22:11 Anthropic prices IPO at $83"],
         "numbers": ["$3,792 Gold an ounce, lowest in more than a year",
                     "2,230 Sudan civilians killed in 2026 (UN)",
-                    "25.9bn km Voyager 1 from Earth", "14.9m GTA VI digital pre-orders (Sensor Tower)"],
+                    "25.9bn km Voyager 1 from Earth", "99/100 GTA VI on Metacritic"],
         "min_body_px": 10,
         "page_scroll_height": page.get("sh"),
         "overflow": overflow,
