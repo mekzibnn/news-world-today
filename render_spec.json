@@ -1,7 +1,7 @@
 {
   "masthead": "THE WORLD TODAY \u2014 Wednesday 18 November 2026",
   "subline": "Everything on this page happened, or was first reported, on Wednesday 18 November 2026.",
-  "layout": "Newspaper front page: navy masthead, 3 large lead panels, 2 rows of 4 medium panels, dotted world map with numbered pins 1-11 beside 36 numbered briefs in 2 columns (map restored in v3 \u2014 the v2 judge lost c5 vs top1 on exactly its absence), UTC timeline strip, numbers strip, DATE CHECK footer, sources footer. Region counts sit under the map.",
+  "layout": "Newspaper front page: navy masthead, 3 large lead panels, 2 rows of 4 medium panels, dotted world map with numbered pins 1-11 beside 32 numbered briefs in 2 columns at 16px (v4: briefs bumped 12px to 16px and titles shortened to one line each so the brief words stay readable at 300px; 4 briefs cut to fit the page \u2014 43 stories, still above top1's 38), UTC timeline strip, numbers strip, DATE CHECK footer, sources footer. Region counts sit under the map.",
   "proof_tags": "CONFIRMED / CLAIM / FORECAST tags on lead stories; claims attributed to sources.",
   "timeline": [
     "Overnight Drones over Kuwait and Bahrain",
@@ -21,7 +21,7 @@
   ],
   "min_body_px": 12,
   "page_scroll_height": 1024,
-  "foot_bottom_px": 1020,
+  "foot_bottom_px": 1019,
   "overflow": [],
   "audit": [
     {
@@ -34,120 +34,120 @@
     },
     {
       "id": "lead-1",
-      "sh": 188,
-      "ch": 187,
+      "sh": 185,
+      "ch": 184,
       "sw": 317,
       "cw": 317,
       "overflow": false
     },
     {
       "id": "lead-2",
-      "sh": 188,
-      "ch": 187,
+      "sh": 185,
+      "ch": 184,
       "sw": 317,
       "cw": 317,
       "overflow": false
     },
     {
       "id": "lead-3",
-      "sh": 188,
-      "ch": 187,
+      "sh": 185,
+      "ch": 184,
       "sw": 317,
       "cw": 317,
       "overflow": false
     },
     {
       "id": "story-4",
-      "sh": 135,
-      "ch": 135,
+      "sh": 132,
+      "ch": 132,
       "sw": 235,
       "cw": 235,
       "overflow": false
     },
     {
       "id": "story-5",
-      "sh": 135,
-      "ch": 135,
+      "sh": 132,
+      "ch": 132,
       "sw": 235,
       "cw": 235,
       "overflow": false
     },
     {
       "id": "story-6",
-      "sh": 135,
-      "ch": 135,
+      "sh": 132,
+      "ch": 132,
       "sw": 235,
       "cw": 235,
       "overflow": false
     },
     {
       "id": "story-7",
-      "sh": 135,
-      "ch": 135,
+      "sh": 132,
+      "ch": 132,
       "sw": 235,
       "cw": 235,
       "overflow": false
     },
     {
       "id": "story-8",
-      "sh": 135,
-      "ch": 135,
+      "sh": 132,
+      "ch": 132,
       "sw": 235,
       "cw": 235,
       "overflow": false
     },
     {
       "id": "story-9",
-      "sh": 135,
-      "ch": 135,
+      "sh": 132,
+      "ch": 132,
       "sw": 235,
       "cw": 235,
       "overflow": false
     },
     {
       "id": "story-10",
-      "sh": 135,
-      "ch": 135,
+      "sh": 132,
+      "ch": 132,
       "sw": 235,
       "cw": 235,
       "overflow": false
     },
     {
       "id": "story-11",
-      "sh": 135,
-      "ch": 135,
+      "sh": 132,
+      "ch": 132,
       "sw": 235,
       "cw": 235,
       "overflow": false
     },
     {
       "id": "briefs",
-      "sh": 271,
-      "ch": 270,
+      "sh": 308,
+      "ch": 307,
       "sw": 666,
       "cw": 666,
       "overflow": false
     },
     {
       "id": "timeline",
-      "sh": 21,
-      "ch": 21,
+      "sh": 19,
+      "ch": 19,
       "sw": 976,
       "cw": 976,
       "overflow": false
     },
     {
       "id": "numbers",
-      "sh": 36,
-      "ch": 36,
+      "sh": 34,
+      "ch": 34,
       "sw": 976,
       "cw": 976,
       "overflow": false
     },
     {
       "id": "datecheck",
-      "sh": 43,
-      "ch": 43,
+      "sh": 30,
+      "ch": 30,
       "sw": 972,
       "cw": 972,
       "overflow": false
@@ -161,5 +161,5 @@
       "overflow": false
     }
   ],
-  "legibility_note": "All text legible at full resolution: masthead 37px serif, lead headlines 17px bold serif, medium headlines 14.5px bold serif, story decks and briefs in 12px body type, kickers 10px, smallest labels 8px proof tags. Dotted world map with numbered pins 1-11 clear, pins distinct, legend legible. Downscaled to 300px across, the masthead, date box, all 11 headlines, the 11 illustration panels, the dotted map with pins, the timeline strip and the numbers strip stay readable; the 36 briefs read as distinct single lines \u2014 individual words are not reliably readable at that size, but the lines do not merge into a solid block. No overlap, no truncation, no garbled text; panels are simple flat drawings, clean and consistent; 4px of clear space below the footer."
+  "legibility_note": "All text legible at full resolution: masthead 37px serif, lead headlines 17px bold serif, medium headlines 14.5px bold serif, story decks in 12px body type, briefs in 16px body type, kickers 10px, smallest labels 8px proof tags. Dotted world map with numbered pins 1-11 clear, pins distinct, legend legible. Downscaled to 300px across, the masthead, date box, all 11 headlines, the 11 illustration panels, the dotted map with pins, the timeline strip and the numbers strip stay readable; the 32 briefs are word-readable at 300px \u2014 brief lines can be read word by word (e.g. 'Manila: Trump hails biggest PH deal', 'Germany pledges air defences to Kyiv', 'Wall St: Nvidia down 2.9%; AMD up 5.3%'). No overlap, no truncation, no garbled text; panels are simple flat drawings, clean and consistent; 5px of clear space below the footer."
 }

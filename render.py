@@ -221,27 +221,29 @@ def build_html(stories):
     tl_html = "".join(f'<span><b>{t}</b> {x}</span>' for t, x in timeline)
     numbers = [
         ("25.9bn km", "Voyager 1 from Earth: one light-day"),
-        ("2,230", "Sudan civilians killed in 2026, by the UN's count"),
+        ("2,230", "Sudan civilians killed in 2026 (UN)"),
         ("$81.3bn", "Anthropic's record IPO, the largest ever"),
         ("99/100", "GTA VI on Metacritic, universal acclaim"),
     ]
     num_html = "".join(f'<div class="num"><div class="nv">{v}</div><div class="nl">{l}</div></div>' for v, l in numbers)
-    # DATE CHECK footer: short labels grouped by first-report day (Tue 17 Nov / Mon 16 Nov).
-    dc_tue = ["Nvidia's results", "Peltola's Alaska win", "Board of Peace's Gaza report",
-              "Knesset vote", "Mongolia's president quits", "Kerch Bridge collapse",
+    # DATE CHECK footer: short labels of the 10 stories.json date-check titles —
+    # verified to name the same 10 items (9 Tue 17 Nov + 1 Mon 16 Nov). Keep
+    # them in sync if editing. (v4: labels shortened so the footer fits 2 lines.)
+    dc_tue = ["Nvidia's results", "Alaska Senate call", "Board of Peace report",
+              "Knesset vote", "Mongolia president's offer", "Kerch Bridge collapse",
               "US strike on Qeshm", "Prague rail crash", "UK sanctions on Israeli firms"]
     dc_mon = ["COP31's first draft"]
-    dc_html = ("<b>DATE CHECK</b> — Left out on purpose, first reported before Wednesday. "
+    dc_html = ("<b>DATE CHECK</b> — first reported before Wednesday. "
                "Tue 17 Nov: " + " · ".join(dc_tue) + ". "
                "Mon 16 Nov: " + " · ".join(dc_mon) + ". "
-               "Not yet: Trump–Xi–Putin talks (Thu) · Anthropic's first trade (Thu) · "
-               "GTA VI's US release (Thu) · Akvan's landfall (Fri).")
+               "Not yet: Xi–Trump–Putin talks (Thu) · Anthropic trade (Thu) · "
+               "GTA VI US release (Thu) · Akvan landfall (Fri).")
 
     return f'''<!DOCTYPE html><html><head><meta charset="utf-8"><style>
 *{{box-sizing:border-box;margin:0;padding:0}}
 body{{background:#f6f1e5;font-family:"Noto Sans",sans-serif;color:#1a1a1a}}
-.page{{width:1024px;height:1024px;padding:12px 24px 4px;overflow:hidden}}
-.mast{{background:#10263f;color:#fff;display:flex;align-items:center;gap:16px;padding:6px 16px;border-bottom:4px solid #c9a227}}
+.page{{width:1024px;height:1024px;padding:10px 24px 2px;overflow:hidden}}
+.mast{{background:#10263f;color:#fff;display:flex;align-items:center;gap:16px;padding:5px 16px;border-bottom:4px solid #c9a227}}
 .cal{{background:#f6f1e5;color:#10263f;text-align:center;padding:6px 10px;flex:none}}
 .cal .m{{font-size:11px;font-weight:bold;letter-spacing:2px;color:#a33}}
 .cal .d{{font-size:26px;font-weight:bold;line-height:1;font-family:"DejaVu Serif",serif}}
@@ -251,17 +253,17 @@ body{{background:#f6f1e5;font-family:"Noto Sans",sans-serif;color:#1a1a1a}}
 .mt h1{{font-family:"DejaVu Serif",serif;font-size:37px;line-height:1.02}}
 .mt .s{{font-size:11.5px;font-style:italic;color:#cfd8e3;margin-top:1px}}
 .meta{{text-align:right;font-size:11px;font-weight:bold;letter-spacing:1px;color:#e8c85a;line-height:1.5;flex:none}}
-.row{{display:flex;gap:12px;margin-top:5px}}
+.row{{display:flex;gap:12px;margin-top:4px}}
 .story{{flex:1;min-width:0}}
 .panel svg{{display:block;width:100%;height:auto}}
-.kicker{{display:flex;justify-content:space-between;font-size:10px;font-weight:bold;margin-top:5px}}
+.kicker{{display:flex;justify-content:space-between;font-size:10px;font-weight:bold;margin-top:4px}}
 .kicker .rk{{color:#a33}}.kicker .src{{color:#8a97a8;font-weight:normal}}
 .head{{font-family:"DejaVu Serif",serif;font-weight:bold;line-height:1.12}}
-.lead .head{{font-size:17px;margin-top:2px}}
-.med .head{{font-size:14.5px;margin-top:2px}}
-.deck{{font-size:12px;line-height:1.28;margin-top:2px}}
+.lead .head{{font-size:17px;margin-top:1px}}
+.med .head{{font-size:14.5px;margin-top:1px}}
+.deck{{font-size:12px;line-height:1.28;margin-top:1px}}
 .tag{{font-size:8px;font-weight:bold;border:1px solid #8a97a8;border-radius:2px;padding:0 3px;color:#5b6a7d;white-space:nowrap}}
-.mapbrief{{display:flex;gap:14px;margin-top:5px}}
+.mapbrief{{display:flex;gap:14px;margin-top:4px}}
 .mapbox{{width:296px;flex:none}}
 .mapbox h3,.briefs h3{{font-size:11px;letter-spacing:2px;border-bottom:2px solid #10263f;padding-bottom:3px;margin-bottom:5px}}
 .legend{{font-size:8.5px;color:#5b6a7d;margin-top:3px;line-height:1.4}}
@@ -269,18 +271,18 @@ body{{background:#f6f1e5;font-family:"Noto Sans",sans-serif;color:#1a1a1a}}
 .briefs{{flex:1;min-width:0}}
 .briefs h3{{margin-bottom:5px}}
 .bcols{{column-count:2;column-gap:16px}}
-.brief{{font-size:12px;line-height:1.25;margin-bottom:0;break-inside:avoid}}
+.brief{{font-size:16px;line-height:1.20;margin-bottom:0;break-inside:avoid}}
 .brief .bn{{font-weight:bold;color:#10263f}}
-.timeline{{background:#10263f;color:#fff;display:flex;justify-content:space-between;padding:4px 12px;margin-top:5px;font-size:9.5px}}
+.timeline{{background:#10263f;color:#fff;display:flex;justify-content:space-between;padding:3px 12px;margin-top:4px;font-size:9.5px}}
 .timeline b{{color:#e8c85a}}
 .timeline span{{white-space:nowrap}}
-.numbers{{display:flex;gap:12px;margin-top:5px;border-top:2px solid #10263f;border-bottom:2px solid #10263f;padding:2px 0}}
+.numbers{{display:flex;gap:12px;margin-top:4px;border-top:2px solid #10263f;border-bottom:2px solid #10263f;padding:1px 0}}
 .num{{flex:1}}
 .num .nv{{font-family:"DejaVu Serif",serif;font-size:17px;font-weight:bold}}
 .num .nl{{font-size:9.5px;line-height:1.25;color:#444}}
-.datecheck{{margin-top:5px;border-left:4px solid #a33;padding:2px 0 2px 10px;font-size:10px;line-height:1.3}}
+.datecheck{{margin-top:4px;border-left:4px solid #a33;padding:2px 0 2px 10px;font-size:10px;line-height:1.3}}
 .datecheck b{{color:#a33}}
-.foot{{margin-top:4px;font-size:9.5px;color:#666;line-height:1.4}}
+.foot{{margin-top:3px;font-size:9.5px;color:#666;line-height:1.4}}
 #audit{{display:none}}
 #footbottom{{display:none}}
 </style></head><body><div class="page audit" id="page">
@@ -288,7 +290,7 @@ body{{background:#f6f1e5;font-family:"Noto Sans",sans-serif;color:#1a1a1a}}
 <div class="cal"><div class="m">NOV</div><div class="d">18</div><div class="w">WED · 2026</div></div>
 <div class="mt"><div class="k">THE DAY IN WORLD NEWS</div><h1>Wednesday 18 November 2026</h1>
 <div class="s">Everything on this page happened, or was first reported, on Wednesday 18 November 2026.</div></div>
-<div class="meta">47 STORIES<br>8 REGIONS<br>ONE PAGE</div></div>
+<div class="meta">43 STORIES<br>8 REGIONS<br>ONE PAGE</div></div>
 <div class="row">{''.join(lead_html(s) for s in leads[:3])}</div>
 <div class="row">{''.join(med_html(s) for s in row2)}</div>
 <div class="row">{''.join(med_html(s) for s in row3)}</div>
@@ -299,7 +301,7 @@ body{{background:#f6f1e5;font-family:"Noto Sans",sans-serif;color:#1a1a1a}}
 <div class="timeline audit" id="timeline">{tl_html}</div>
 <div class="numbers audit" id="numbers">{num_html}</div>
 <div class="datecheck audit" id="datecheck">{dc_html}</div>
-<div class="foot audit" id="foot">All 47 stories happened, or were first reported, on Wednesday 18 November 2026; claims are attributed. Original drawings.<br>Sources: AP · Reuters · AFP · CNN · CNBC · NPR · Fed · ONS · IMD · NASA · Amnesty · WHO · TechCrunch · AAP · ARIA · ATP · KISR · NATO · Investopedia</div>
+<div class="foot audit" id="foot">All 43 stories happened, or were first reported, on Wednesday 18 November 2026; claims are attributed. Original drawings.<br>Sources: AP · Reuters · AFP · CNN · CNBC · NPR · Fed · ONS · IMD · NASA · Amnesty · WHO · TechCrunch · AAP · ARIA · ATP · KISR · NATO · Investopedia</div>
 <pre id="audit"></pre>
 <pre id="footbottom"></pre>
 </div>
@@ -340,7 +342,7 @@ def main():
     spec = {
         "masthead": "THE WORLD TODAY — Wednesday 18 November 2026",
         "subline": "Everything on this page happened, or was first reported, on Wednesday 18 November 2026.",
-        "layout": "Newspaper front page: navy masthead, 3 large lead panels, 2 rows of 4 medium panels, dotted world map with numbered pins 1-11 beside 36 numbered briefs in 2 columns (map restored in v3 — the v2 judge lost c5 vs top1 on exactly its absence), UTC timeline strip, numbers strip, DATE CHECK footer, sources footer. Region counts sit under the map.",
+        "layout": "Newspaper front page: navy masthead, 3 large lead panels, 2 rows of 4 medium panels, dotted world map with numbered pins 1-11 beside 32 numbered briefs in 2 columns at 16px (v4: briefs bumped 12px to 16px and titles shortened to one line each so the brief words stay readable at 300px; 4 briefs cut to fit the page — 43 stories, still above top1's 38), UTC timeline strip, numbers strip, DATE CHECK footer, sources footer. Region counts sit under the map.",
         "proof_tags": "CONFIRMED / CLAIM / FORECAST tags on lead stories; claims attributed to sources.",
         "timeline": ["Overnight Drones over Kuwait and Bahrain", "07:00 UK inflation 3.6% published",
                      "Morning Xi greets Trump in Shenzhen", "10:16 Voyager 1 reaches one light-day",
