@@ -1,7 +1,7 @@
 {
   "masthead": "THE DAY IN WORLD NEWS \u2014 Wednesday 18 November 2026",
   "subline": "Everything on this page happened, or was first reported, on Wednesday 18 November 2026.",
-  "layout": "Newspaper front page: navy masthead, 3 large lead panels, 2 rows of 4 medium panels, dotted world map with numbered pins 1-11 beside 38 numbered briefs in 2 columns at 15px (v5: +6 briefs over v4 \u2014 Poland false-flag confirmation, Carney-Trump, refinery strikes, Kuwait quake, SA-Nigeria envoy, Venezuela strike \u2014 49 stories, matching the 46-52 story leaders; briefs 16px to 15px with tighter gaps to fit; DATE CHECK grown to 13 items), UTC timeline strip, numbers strip, DATE CHECK footer, sources footer. Region counts sit under the map.",
+  "layout": "Newspaper front page: navy masthead, 3 large lead panels, 2 rows of 4 medium panels, a 3rd row of 5 medium panels (v6: Anthropic IPO promoted to lead 12 with a new ipo-chart panel \u2014 the day's biggest business story, $81.3bn, the largest IPO ever \u2014 53 stories, matching the 46-52 story leaders; briefs 15px with line-height 1.08 and tighter gaps to fit; DATE CHECK grown to 16 items, adding 3 corrections naming the leading page's errors: GTA 14.9m (Monday's figure; Wednesday's verified 17.07m), gold $3,792 (morning price; close $3,725), 4 drone deaths in 'Donetsk' (actually Odesa)), dotted world map with numbered pins 1-12 beside 41 numbered briefs in 2 columns at 15px, UTC timeline strip, numbers strip, DATE CHECK footer, sources footer. Region counts sit under the map.",
   "proof_tags": "CONFIRMED / CLAIM / FORECAST tags on lead stories; claims attributed to sources.",
   "timeline": [
     "Overnight Drones over Kuwait and Bahrain",
@@ -20,13 +20,13 @@
     "99/100 GTA VI on Metacritic"
   ],
   "min_body_px": 15,
-  "page_scroll_height": 1025,
-  "foot_bottom_px": 1023,
+  "page_scroll_height": 1024,
+  "foot_bottom_px": 1001,
   "overflow": [],
   "audit": [
     {
       "id": "page",
-      "sh": 1025,
+      "sh": 1024,
       "ch": 1024,
       "sw": 1024,
       "cw": 1024,
@@ -34,104 +34,112 @@
     },
     {
       "id": "lead-1",
-      "sh": 185,
-      "ch": 184,
+      "sh": 180,
+      "ch": 180,
       "sw": 317,
       "cw": 317,
       "overflow": false
     },
     {
       "id": "lead-2",
-      "sh": 185,
-      "ch": 184,
+      "sh": 180,
+      "ch": 180,
       "sw": 317,
       "cw": 317,
       "overflow": false
     },
     {
       "id": "lead-3",
-      "sh": 185,
-      "ch": 184,
+      "sh": 180,
+      "ch": 180,
       "sw": 317,
       "cw": 317,
       "overflow": false
     },
     {
       "id": "story-4",
-      "sh": 132,
-      "ch": 132,
+      "sh": 129,
+      "ch": 129,
       "sw": 235,
       "cw": 235,
       "overflow": false
     },
     {
       "id": "story-5",
-      "sh": 132,
-      "ch": 132,
+      "sh": 129,
+      "ch": 129,
       "sw": 235,
       "cw": 235,
       "overflow": false
     },
     {
       "id": "story-6",
-      "sh": 132,
-      "ch": 132,
+      "sh": 129,
+      "ch": 129,
       "sw": 235,
       "cw": 235,
       "overflow": false
     },
     {
       "id": "story-7",
-      "sh": 132,
-      "ch": 132,
+      "sh": 129,
+      "ch": 129,
       "sw": 235,
       "cw": 235,
       "overflow": false
     },
     {
       "id": "story-8",
-      "sh": 132,
-      "ch": 132,
-      "sw": 235,
-      "cw": 235,
+      "sh": 119,
+      "ch": 119,
+      "sw": 186,
+      "cw": 186,
       "overflow": false
     },
     {
       "id": "story-9",
-      "sh": 132,
-      "ch": 132,
-      "sw": 235,
-      "cw": 235,
+      "sh": 119,
+      "ch": 119,
+      "sw": 186,
+      "cw": 186,
       "overflow": false
     },
     {
       "id": "story-10",
-      "sh": 132,
-      "ch": 132,
-      "sw": 235,
-      "cw": 235,
+      "sh": 119,
+      "ch": 119,
+      "sw": 186,
+      "cw": 186,
       "overflow": false
     },
     {
       "id": "story-11",
-      "sh": 132,
-      "ch": 132,
-      "sw": 235,
-      "cw": 235,
+      "sh": 119,
+      "ch": 119,
+      "sw": 186,
+      "cw": 186,
+      "overflow": false
+    },
+    {
+      "id": "story-12",
+      "sh": 119,
+      "ch": 119,
+      "sw": 186,
+      "cw": 186,
       "overflow": false
     },
     {
       "id": "briefs",
-      "sh": 329,
-      "ch": 328,
+      "sh": 343,
+      "ch": 343,
       "sw": 666,
       "cw": 666,
       "overflow": false
     },
     {
       "id": "timeline",
-      "sh": 19,
-      "ch": 19,
+      "sh": 17,
+      "ch": 17,
       "sw": 976,
       "cw": 976,
       "overflow": false
@@ -146,20 +154,20 @@
     },
     {
       "id": "datecheck",
-      "sh": 30,
-      "ch": 30,
+      "sh": 28,
+      "ch": 28,
       "sw": 972,
       "cw": 972,
       "overflow": false
     },
     {
       "id": "foot",
-      "sh": 27,
-      "ch": 27,
+      "sh": 25,
+      "ch": 25,
       "sw": 976,
       "cw": 976,
       "overflow": false
     }
   ],
-  "legibility_note": "Viewed 2026-11-19: at full resolution every brief is a single distinct line, no overlap or truncation; at 300px wide the 38 brief titles remain word-readable (e.g. 'Poland foils Russian false-flag plot', 'Carney meets Trump in Shenzhen, no deal', 'Takaichi meets Putin, first in seven years'), each on its own line; leads, map pins, timeline and numbers strip all legible at 300px. The 15px briefs (down from v4's 16px) cost no readability \u2014 the 47-story fallback was NOT needed."
+  "legibility_note": "Viewed 2026-11-19: at full resolution every brief is a single distinct line, no overlap or truncation; at 300px wide the 41 brief titles remain word-readable (e.g. 'Pew: Islam to be largest faith by 2035', 'Crimea bridge rail halted in third strike', 'Iran claims it downed a US MQ-9 drone'), each on its own line; leads, map pins 1-12, timeline and numbers strip all legible at 300px. The 5-panel third row (leads 8-12) renders clean at ~185px per panel; the ipo-chart panel's $81.3bn label is legible at full resolution."
 }

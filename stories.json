@@ -42,7 +42,7 @@
     "topic": "SCIENCE"
   },
   {
-    "deck": "Seven sites hit overnight; 4 killed in Odesa, 6 hurt in Dnipro.",
+    "deck": "Seven sites hit overnight; 4 killed, 13 hurt in Odesa; 6 hurt in Dnipro.",
     "lat": 50.4,
     "lead": true,
     "lon": 30.5,
@@ -98,7 +98,7 @@
     "topic": "SUDAN WAR"
   },
   {
-    "deck": "Two-thirds of a €70bn gap, repaid only once Russia pays reparations.",
+    "deck": "Two-thirds of a €70bn gap, repaid once Russia pays.",
     "lat": 50.9,
     "lead": true,
     "lon": 4.4,
@@ -108,11 +108,11 @@
     "region": "EUROPE",
     "section": "news",
     "source": "EU",
-    "title": "EU proposes a €45bn loan to fund Ukraine in 2027",
+    "title": "EU proposes €45bn Ukraine loan for 2027",
     "topic": "UKRAINE AID"
   },
   {
-    "deck": "Fuel and a tobacco tax rise pushed October CPI up from 3.5%.",
+    "deck": "Fuel and tobacco tax rise pushed CPI to 3.6%.",
     "lat": 51.5,
     "lead": true,
     "lon": -0.1,
@@ -126,7 +126,7 @@
     "topic": "ECONOMY"
   },
   {
-    "deck": "First ground push since truce; three killed, army cites a tunnel.",
+    "deck": "First ground push since truce; three killed.",
     "lat": 31.4,
     "lead": true,
     "lon": 34.4,
@@ -136,11 +136,11 @@
     "region": "MIDDLE EAST",
     "section": "news",
     "source": "REUTERS",
-    "title": "Israeli tanks roll into central Gaza near Nuseirat",
+    "title": "Israeli tanks roll into central Gaza",
     "topic": "GAZA"
   },
   {
-    "deck": "A 251–11 vote puts him on course to be the first Black Speaker.",
+    "deck": "251–11 vote; on course to be first Black Speaker.",
     "lat": 38.9,
     "lead": true,
     "lon": -77.0,
@@ -149,13 +149,13 @@
     "proof": "CONFIRMED",
     "region": "AMERICAS",
     "section": "news",
-    "source": "NPR · CBS",
-    "title": "Jeffries wins Democrats' nod for House Speaker",
-    "topic": "US POLITICS"
+    "source": "NPR",
+    "title": "Jeffries wins Democrats' nod",
+    "topic": "POLITICS"
   },
   {
     "deck": "The US president closes his Manila stop with a trade deal he calls the biggest yet.",
-    "n": 12,
+    "n": 13,
     "proof": "CONFIRMED",
     "region": "ASIA-PACIFIC",
     "section": "news",
@@ -164,7 +164,7 @@
   },
   {
     "deck": "The US, India, Japan and Australia hold their first leaders' summit since September 2024.",
-    "n": 13,
+    "n": 14,
     "proof": "CONFIRMED",
     "region": "ASIA-PACIFIC",
     "section": "news",
@@ -173,7 +173,7 @@
   },
   {
     "deck": "Japan's prime minister travels to Beijing for the first time since taking office.",
-    "n": 14,
+    "n": 15,
     "proof": "CONFIRMED",
     "region": "ASIA-PACIFIC",
     "section": "news",
@@ -182,7 +182,7 @@
   },
   {
     "deck": "Ottawa and Beijing agree steps to ease tariffs after months of trade friction.",
-    "n": 15,
+    "n": 16,
     "proof": "CONFIRMED",
     "region": "ASIA-PACIFIC",
     "section": "news",
@@ -191,7 +191,7 @@
   },
   {
     "deck": "Seoul asks Beijing to use its leverage over Pyongyang as tensions persist.",
-    "n": 16,
+    "n": 17,
     "proof": "CONFIRMED",
     "region": "ASIA-PACIFIC",
     "section": "news",
@@ -200,7 +200,7 @@
   },
   {
     "deck": "Garment workers demanding higher pay are dispersed with tear gas in Dhaka.",
-    "n": 17,
+    "n": 18,
     "proof": "CONFIRMED",
     "region": "ASIA-PACIFIC",
     "section": "news",
@@ -209,7 +209,7 @@
   },
   {
     "deck": "Hundreds of troops deploy nationwide as ex-PM Hasina's planned return sparks clashes and arson.",
-    "n": 18,
+    "n": 19,
     "proof": "CONFIRMED",
     "region": "ASIA-PACIFIC",
     "section": "news",
@@ -218,7 +218,7 @@
   },
   {
     "deck": "The Saudi-led coalition says it intercepted a cruise missile fired by Yemen's Houthis.",
-    "n": 19,
+    "n": 20,
     "proof": "CONFIRMED",
     "region": "MIDDLE EAST",
     "section": "news",
@@ -227,7 +227,7 @@
   },
   {
     "deck": "A 4.1 quake strikes Al-Manaqish at 03:53, 11 km deep; no damage or injuries reported.",
-    "n": 20,
+    "n": 21,
     "proof": "CONFIRMED",
     "region": "MIDDLE EAST",
     "section": "news",
@@ -236,7 +236,7 @@
   },
   {
     "deck": "Canberra imposes sanctions on the settler leader over West Bank violence.",
-    "n": 21,
+    "n": 22,
     "proof": "CONFIRMED",
     "region": "ASIA-PACIFIC",
     "section": "news",
@@ -245,7 +245,7 @@
   },
   {
     "deck": "Berlin promises more air defences and F-16 armaments for Ukraine.",
-    "n": 22,
+    "n": 23,
     "proof": "CONFIRMED",
     "region": "EUROPE",
     "section": "news",
@@ -254,7 +254,7 @@
   },
   {
     "deck": "Defence minister confirms services stopped a mass-casualty sabotage plan near Kaliningrad meant to be blamed on Kyiv.",
-    "n": 23,
+    "n": 24,
     "proof": "CLAIM",
     "region": "EUROPE",
     "section": "news",
@@ -263,7 +263,7 @@
   },
   {
     "deck": "Ilsky and Afipsky struck overnight; Russian refining down 45% since late October.",
-    "n": 24,
+    "n": 25,
     "proof": "CONFIRMED",
     "region": "EUROPE",
     "section": "news",
@@ -272,7 +272,7 @@
   },
   {
     "deck": "Former president Hashim Thaçi is sentenced to 17 months by the Kosovo war-crimes court.",
-    "n": 25,
+    "n": 26,
     "proof": "CONFIRMED",
     "region": "EUROPE",
     "section": "news",
@@ -281,7 +281,7 @@
   },
   {
     "deck": "Nineteen people are reported killed in a plane crash in Kemerovo, Russian media say.",
-    "n": 26,
+    "n": 27,
     "proof": "CLAIM",
     "region": "EUROPE",
     "section": "news",
@@ -290,7 +290,7 @@
   },
   {
     "deck": "Britain extradites a US Army soldier suspected of spying to American custody.",
-    "n": 27,
+    "n": 28,
     "proof": "CONFIRMED",
     "region": "EUROPE",
     "section": "news",
@@ -299,7 +299,7 @@
   },
   {
     "deck": "Opposition leader Venâncio Mondlane goes on trial in Maputo.",
-    "n": 28,
+    "n": 29,
     "proof": "CONFIRMED",
     "region": "AFRICA",
     "section": "news",
@@ -308,7 +308,7 @@
   },
   {
     "deck": "A Guinean court jails 224 people in a crackdown on illegal gold mining.",
-    "n": 29,
+    "n": 30,
     "proof": "CONFIRMED",
     "region": "AFRICA",
     "section": "news",
@@ -317,7 +317,7 @@
   },
   {
     "deck": "Port Louis gives London until December over the Chagos Islands handover.",
-    "n": 30,
+    "n": 31,
     "proof": "CONFIRMED",
     "region": "AFRICA",
     "section": "news",
@@ -326,7 +326,7 @@
   },
   {
     "deck": "Pretoria formally reprimands Abuja's new envoy in a diplomatic row.",
-    "n": 31,
+    "n": 32,
     "proof": "CONFIRMED",
     "region": "AFRICA",
     "section": "news",
@@ -335,7 +335,7 @@
   },
   {
     "deck": "Monitors report shelling near Badme as both armies mass troops on the border; Eritrea denies a build-up.",
-    "n": 32,
+    "n": 33,
     "proof": "CLAIM",
     "region": "AFRICA",
     "section": "news",
@@ -344,7 +344,7 @@
   },
   {
     "deck": "The Bundibugyo Ebola outbreak passes 11,000 cases and 5,400 deaths, the WHO says.",
-    "n": 33,
+    "n": 34,
     "proof": "CONFIRMED",
     "region": "AFRICA",
     "section": "news",
@@ -352,13 +352,18 @@
     "title": "DR Congo Ebola: 400–500 cases a week"
   },
   {
-    "deck": "$81.3bn raised, the largest IPO ever, passing SpaceX's $75bn. Shares trade Thursday as ANT.",
-    "n": 34,
+    "deck": "$81.3bn raised — the largest IPO ever. Trades Thursday.",
+    "lat": 37.8,
+    "lead": true,
+    "lon": -122.4,
+    "n": 12,
+    "panel": "ipo-chart",
     "proof": "CONFIRMED",
     "region": "AMERICAS",
     "section": "news",
-    "source": "TECHCRUNCH · CNBC",
-    "title": "Anthropic prices IPO at $83"
+    "source": "TECHCRUNCH",
+    "title": "Anthropic prices the biggest IPO ever",
+    "topic": "IPO"
   },
   {
     "deck": "The Secretary of State says there is no sign a cyberattack caused recent outages.",
@@ -598,5 +603,65 @@
     "section": "date-check",
     "source": "OPENAI",
     "title": "OpenAI launches GPT-6.2 Astra and Sol"
+  },
+  {
+    "deck": "Pew projects Muslims at 2.57bn vs Christians 2.52bn by 2035.",
+    "n": 50,
+    "proof": "CONFIRMED",
+    "region": "GLOBAL",
+    "section": "news",
+    "source": "PEW · AP",
+    "title": "Pew: Islam to be largest faith by 2035"
+  },
+  {
+    "deck": "Third strike in four days halts rail traffic over the bridge.",
+    "n": 51,
+    "proof": "CONFIRMED",
+    "region": "EUROPE",
+    "section": "news",
+    "source": "THE GUARDIAN",
+    "title": "Crimea bridge rail halted in third strike"
+  },
+  {
+    "deck": "Category 5 storm bears down on the Cook Islands.",
+    "n": 52,
+    "proof": "CONFIRMED",
+    "region": "OCEANIA",
+    "section": "news",
+    "source": "NEWSPOINT USA",
+    "title": "Cyclone Xavier reaches Category 5"
+  },
+  {
+    "deck": "Iran's army claims the kill; US Central Command has not confirmed.",
+    "n": 53,
+    "proof": "CLAIM",
+    "region": "MIDDLE EAST",
+    "section": "news",
+    "source": "ROYA NEWS",
+    "title": "Iran claims it downed a US MQ-9 drone"
+  },
+  {
+    "deck": "Sensor Tower's verified Wednesday figure is 17.07m; 14.9m was Monday 16 Nov.",
+    "proof": "CONFIRMED",
+    "region": "DATE CHECK",
+    "section": "date-check",
+    "source": "SENSOR TOWER · FORBES",
+    "title": "GTA VI pre-orders 14.9m — Monday's figure"
+  },
+  {
+    "deck": "Gold broke below $3,750 and closed at $3,725, a 14-month low.",
+    "proof": "CONFIRMED",
+    "region": "DATE CHECK",
+    "section": "date-check",
+    "source": "KITCO · AUSSECURE",
+    "title": "Gold $3,792/oz — Wednesday morning's price"
+  },
+  {
+    "deck": "The four were killed in Odesa's historic centre, not Donetsk.",
+    "proof": "CONFIRMED",
+    "region": "DATE CHECK",
+    "section": "date-check",
+    "source": "REUTERS · AL JAZEERA",
+    "title": "Four drone deaths in 'Donetsk region'"
   }
 ]
