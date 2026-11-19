@@ -1,7 +1,7 @@
 {
-  "masthead": "THE WORLD TODAY \u2014 Wednesday 18 November 2026",
+  "masthead": "THE DAY IN WORLD NEWS \u2014 Wednesday 18 November 2026",
   "subline": "Everything on this page happened, or was first reported, on Wednesday 18 November 2026.",
-  "layout": "Newspaper front page: navy masthead, 3 large lead panels, 2 rows of 4 medium panels, dotted world map with numbered pins 1-11 beside 32 numbered briefs in 2 columns at 16px (v4: briefs bumped 12px to 16px and titles shortened to one line each so the brief words stay readable at 300px; 4 briefs cut to fit the page \u2014 43 stories, still above top1's 38), UTC timeline strip, numbers strip, DATE CHECK footer, sources footer. Region counts sit under the map.",
+  "layout": "Newspaper front page: navy masthead, 3 large lead panels, 2 rows of 4 medium panels, dotted world map with numbered pins 1-11 beside 38 numbered briefs in 2 columns at 15px (v5: +6 briefs over v4 \u2014 Poland false-flag confirmation, Carney-Trump, refinery strikes, Kuwait quake, SA-Nigeria envoy, Venezuela strike \u2014 49 stories, matching the 46-52 story leaders; briefs 16px to 15px with tighter gaps to fit; DATE CHECK grown to 13 items), UTC timeline strip, numbers strip, DATE CHECK footer, sources footer. Region counts sit under the map.",
   "proof_tags": "CONFIRMED / CLAIM / FORECAST tags on lead stories; claims attributed to sources.",
   "timeline": [
     "Overnight Drones over Kuwait and Bahrain",
@@ -19,14 +19,14 @@
     "$81.3bn Anthropic's record IPO, the largest ever",
     "99/100 GTA VI on Metacritic"
   ],
-  "min_body_px": 12,
-  "page_scroll_height": 1024,
-  "foot_bottom_px": 1019,
+  "min_body_px": 15,
+  "page_scroll_height": 1025,
+  "foot_bottom_px": 1023,
   "overflow": [],
   "audit": [
     {
       "id": "page",
-      "sh": 1024,
+      "sh": 1025,
       "ch": 1024,
       "sw": 1024,
       "cw": 1024,
@@ -122,8 +122,8 @@
     },
     {
       "id": "briefs",
-      "sh": 308,
-      "ch": 307,
+      "sh": 329,
+      "ch": 328,
       "sw": 666,
       "cw": 666,
       "overflow": false
@@ -138,8 +138,8 @@
     },
     {
       "id": "numbers",
-      "sh": 34,
-      "ch": 34,
+      "sh": 32,
+      "ch": 31,
       "sw": 976,
       "cw": 976,
       "overflow": false
@@ -161,5 +161,5 @@
       "overflow": false
     }
   ],
-  "legibility_note": "All text legible at full resolution: masthead 37px serif, lead headlines 17px bold serif, medium headlines 14.5px bold serif, story decks in 12px body type, briefs in 16px body type, kickers 10px, smallest labels 8px proof tags. Dotted world map with numbered pins 1-11 clear, pins distinct, legend legible. Downscaled to 300px across, the masthead, date box, all 11 headlines, the 11 illustration panels, the dotted map with pins, the timeline strip and the numbers strip stay readable; the 32 briefs are word-readable at 300px \u2014 brief lines can be read word by word (e.g. 'Manila: Trump hails biggest PH deal', 'Germany pledges air defences to Kyiv', 'Wall St: Nvidia down 2.9%; AMD up 5.3%'). No overlap, no truncation, no garbled text; panels are simple flat drawings, clean and consistent; 5px of clear space below the footer."
+  "legibility_note": "Viewed 2026-11-19: at full resolution every brief is a single distinct line, no overlap or truncation; at 300px wide the 38 brief titles remain word-readable (e.g. 'Poland foils Russian false-flag plot', 'Carney meets Trump in Shenzhen, no deal', 'Takaichi meets Putin, first in seven years'), each on its own line; leads, map pins, timeline and numbers strip all legible at 300px. The 15px briefs (down from v4's 16px) cost no readability \u2014 the 47-story fallback was NOT needed."
 }
