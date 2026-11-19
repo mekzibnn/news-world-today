@@ -1,0 +1,162 @@
+{
+  "masthead": "THE WORLD TODAY \u2014 Wednesday 18 November 2026",
+  "subline": "Everything on this page happened, or was first reported, on Wednesday 18 November 2026.",
+  "layout": "Newspaper front page: navy masthead, 3 large lead panels, 2 rows of 4 medium panels, dotted world map with numbered pins 1-11 beside 29 numbered briefs in 2 columns, UTC timeline strip, numbers strip, DATE CHECK footer, sources footer.",
+  "proof_tags": "CONFIRMED / CLAIM / FORECAST tags on lead stories; claims attributed to sources.",
+  "timeline": [
+    "07:00 UK inflation 3.6% published",
+    "10:16 Voyager 1 reaches one light-day",
+    "11:00 GTA VI unlocks in New Zealand",
+    "13:06 Reuters: Ethiopia-Eritrea build-up",
+    "19:00 Fed minutes released",
+    "22:11 Anthropic prices IPO at $83"
+  ],
+  "numbers": [
+    "$3,792 Gold an ounce, lowest in more than a year",
+    "2,230 Sudan civilians killed in 2026 (UN)",
+    "25.9bn km Voyager 1 from Earth",
+    "14.9m GTA VI digital pre-orders (Sensor Tower)"
+  ],
+  "min_body_px": 10,
+  "page_scroll_height": 1024,
+  "overflow": [],
+  "audit": [
+    {
+      "id": "page",
+      "sh": 1024,
+      "ch": 1024,
+      "sw": 1024,
+      "cw": 1024,
+      "overflow": false
+    },
+    {
+      "id": "lead-1",
+      "sh": 195,
+      "ch": 195,
+      "sw": 317,
+      "cw": 317,
+      "overflow": false
+    },
+    {
+      "id": "lead-2",
+      "sh": 195,
+      "ch": 195,
+      "sw": 317,
+      "cw": 317,
+      "overflow": false
+    },
+    {
+      "id": "lead-3",
+      "sh": 195,
+      "ch": 195,
+      "sw": 317,
+      "cw": 317,
+      "overflow": false
+    },
+    {
+      "id": "story-4",
+      "sh": 128,
+      "ch": 128,
+      "sw": 235,
+      "cw": 235,
+      "overflow": false
+    },
+    {
+      "id": "story-5",
+      "sh": 128,
+      "ch": 128,
+      "sw": 235,
+      "cw": 235,
+      "overflow": false
+    },
+    {
+      "id": "story-6",
+      "sh": 128,
+      "ch": 128,
+      "sw": 235,
+      "cw": 235,
+      "overflow": false
+    },
+    {
+      "id": "story-7",
+      "sh": 128,
+      "ch": 128,
+      "sw": 235,
+      "cw": 235,
+      "overflow": false
+    },
+    {
+      "id": "story-8",
+      "sh": 128,
+      "ch": 128,
+      "sw": 235,
+      "cw": 235,
+      "overflow": false
+    },
+    {
+      "id": "story-9",
+      "sh": 128,
+      "ch": 128,
+      "sw": 235,
+      "cw": 235,
+      "overflow": false
+    },
+    {
+      "id": "story-10",
+      "sh": 128,
+      "ch": 128,
+      "sw": 235,
+      "cw": 235,
+      "overflow": false
+    },
+    {
+      "id": "story-11",
+      "sh": 128,
+      "ch": 128,
+      "sw": 235,
+      "cw": 235,
+      "overflow": false
+    },
+    {
+      "id": "briefs",
+      "sh": 240,
+      "ch": 240,
+      "sw": 666,
+      "cw": 666,
+      "overflow": false
+    },
+    {
+      "id": "timeline",
+      "sh": 25,
+      "ch": 25,
+      "sw": 976,
+      "cw": 976,
+      "overflow": false
+    },
+    {
+      "id": "numbers",
+      "sh": 42,
+      "ch": 42,
+      "sw": 976,
+      "cw": 976,
+      "overflow": false
+    },
+    {
+      "id": "datecheck",
+      "sh": 31,
+      "ch": 31,
+      "sw": 972,
+      "cw": 972,
+      "overflow": false
+    },
+    {
+      "id": "foot",
+      "sh": 25,
+      "ch": 25,
+      "sw": 976,
+      "cw": 976,
+      "overflow": false
+    }
+  ],
+  "legibility_note": "TO FILL after viewing the PNG at full resolution."
+}
